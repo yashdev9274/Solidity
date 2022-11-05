@@ -26,8 +26,8 @@ contract Mappings{
 
     constructor() public {
         myMapping[1] = "IronMan";
-        myMapping[2] = "Thor";
-        myMapping[3] = "Hulk";
+        myMapping[2] = "Spider-Man";
+        myMapping[3] = "Batman";
         myMapping[4] = "Wanda";
         myMapping[5] = "Dr Strange";
         myMapping[6] = "Captain America";

@@ -39,7 +39,7 @@ contract SimpleStorage{
        using a single datatype or variable. For that we can use the below concepts.
     */
 
-    // People public person = People({favNumber:15, name:"Kartik"});
+    // People public person = People({favNumber:15, name:"Yash"});
     // struct
     struct People {
         uint256 favNumber;

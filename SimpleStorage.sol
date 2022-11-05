@@ -15,10 +15,10 @@ contract SimpleStorage{
 
     // bool hasFavoriteNumber = true; 
     // uint256 favoriteNumber = 892;       // Here we written 256 after uint which tells that the uint value that has to be stored in the uint datatype can be upto 256 bits. We can also use uint32 to assign uint values upto 32 bits and if we don't use anything then the compiler automatically takes it as uint256
-    // string favoriteNumberInText = "Five";
-    // int256 favoriteInt = -5;
-    // address myWalletAddress = 0x51CC8a8fC56446193Ad2A60844692531D5D2ab4E;
-    // bytes32 favoriteBytes = "cat"; 
+    // string favoriteNumberInText = "Seven";
+    // int256 favoriteInt = -10;
+    // address myWalletAddress = 0xB87C7424D6D8648e9bcB67A73a00C47B382eff53;
+    // bytes32 favoriteBytes = "Tiger"; 
 
     uint256 favoriteNumber;     // If we only just initialize the uint and don't provide any value then it will automatically get initialized to zero.
 
@@ -46,7 +46,7 @@ contract SimpleStorage{
     address */ 
 
     
-    People public person = People({favoriteNumber:7,name:"Kartikey"});
+    People public person = People({favoriteNumber:7,name:"Yash"});
 
     struct People{
         uint256 favoriteNumber;

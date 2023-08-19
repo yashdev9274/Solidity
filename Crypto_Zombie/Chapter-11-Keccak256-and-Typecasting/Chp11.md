@@ -21,6 +21,8 @@ The goal of this problem is to fill in the body of the \_generateRandomDna funct
 The function should take a string as input and return a uint that is the hash of the string, modulo the dnaModulus.
 Solution
 
+> check out the solution in this (file){}
+
 The following code is a solution to the problem:
 
 `function _generateRandomDna(string memory _str) private view returns (uint) {
